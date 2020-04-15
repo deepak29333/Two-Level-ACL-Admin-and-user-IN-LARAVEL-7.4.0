@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 # Three-level-ACL-IN-LARAVEL
-three level access control level is created 1. super 2. admin  3. user             admin  and user can use forget password but not superadmin
+Two level access control level is created 1. admin  2. user             admin  and user can use forget password
 
 Step to install
 command 
