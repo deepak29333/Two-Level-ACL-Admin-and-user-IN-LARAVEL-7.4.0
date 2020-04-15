@@ -23,7 +23,6 @@ $a->email="admin@gmail.com";
 $a->password=Hask::make("password");
 $a->save();
  
- same as create superadmin tinker.
  6. php artisan serve
  
 
