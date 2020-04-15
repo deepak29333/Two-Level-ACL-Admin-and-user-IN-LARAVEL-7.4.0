@@ -6,6 +6,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+# Three-level-ACL-IN-LARAVEL
+three level access control level is created 1. super 2. admin  3. user             admin  and user can use forget password but not superadmin
+
+Step to install
+command 
+  clone or download the project
+1. composer Install
+2. copy .env.example .env
+3. php artisan key:generate
+4. php artisan migrate
+5. php artisan tinker
+>>> $a= new admin;
+$a->name="admin";
+$a->email="admin@gmail.com";
+$a->password=Hask::make("password");
+$a->save();
+ 
+ same as create superadmin tinker.
+ 6. php artisan serve
+ 
+
+
+
 
 ## About Laravel
 
